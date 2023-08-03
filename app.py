@@ -5,7 +5,16 @@ os.system(f"git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui /h
 
 os.chdir(f"/home/demo/source/stable-diffusion-webui")
 
+os.system(f"sudo apt install python3.10 python3.10-distutils")
+os.system(f"sudo apt-get install python3-pip")
+os.system(f"pip3 install virtualenv ")
+os.system(f"virtualenv venv ")
+os.system(f"virtualenv -p /usr/bin/python3.10 venv")
+os.system(f"source venv/bin/activate")
+
 os.system(f"python3.10 -m venv venv")
+
+
 
 
 os.system(f"git clone https://huggingface.co/embed/negative /home/demo/source/stable-diffusion-webui/embeddings/negative")
