@@ -42,3 +42,8 @@ os.system(f"git clone -b dev https://github.com/camenduru/sd-webui-aspect-ratio-
 # os.system(f"python3 launch.py --port 8266 --listen --cors-allow-origins=* --xformers --enable-insecure-extension-access --theme dark --gradio-queue --disable-safe-unpickle")
 # os.system(f"curl -o /home/demo/source/stable-diffusion-webui/extensions/sd-webui-segment-anything/models/sam/sam_vit_h_4b8939.pth https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth")
 
+# os.system(f"./webui.sh --port 8266 --listen --cors-allow-origins=* --xformers --enable-insecure-extension-access --theme dark --gradio-queue --disable-safe-unpickle")
+
+os.system(f"echo "DONE, waiting forever")
+
+os.system(f"while :; do sleep 2073600; done")
